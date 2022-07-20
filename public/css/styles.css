@@ -1,0 +1,49 @@
+.wrapper{
+   max-width: 50vh;
+   margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    margin: 30px 100px 100px 100px;
+ }
+ nav li{
+    display: inline;
+ }
+ nav li a{
+    text-decoration: none;
+    margin-right: 10px;
+ }
+ form label{
+   display: flex;
+   margin-top: 20px;
+ }
+ form button{
+   display: block;
+ }
+ .box-div{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ .box{
+   width: fit-content;
+   padding: 10px;
+   border: 0.5px solid aqua;
+   border-radius: 5px;
+   background-color: aqua;
+   margin-bottom: 10px;
+ }
+ .bck-div{
+   margin-bottom: 50px;
+   background-color: brown;
+   width: fit-content;
+   padding: 5px;
+   border-radius: 5px;
+ }
+ .bck-div a{
+   color: #fff;
+   text-decoration: none;
+   border: 0.5px solid brown;
+ }
